@@ -19,3 +19,13 @@ Enter the height: 3
 """
 
 #write your code here 
+b = int(input("Enter the base: "))
+h = int(input("Enter the height: "))
+
+line = 0
+line2 = 0
+
+while line < h:
+    line2 = "*" * b
+    print(line2)
+    line = line + 1
