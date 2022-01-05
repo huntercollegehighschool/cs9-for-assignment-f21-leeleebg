@@ -8,3 +8,15 @@ For example, if the user types in 4, the program should print 100 (since 1^3 + 2
 """
 
 #write your code here
+num = int(input("Enter a positive integer: "))
+
+if num < 0: 
+  print("That is not a valid input.")
+  num = int(input("Enter a positive integer: "))
+
+add = 0
+
+for i in range(1, num+1):
+  add = add + i**3
+
+print(add)
